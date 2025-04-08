@@ -9,8 +9,8 @@ trazendo uma exibição de seus produtos, uma maior facilidade para fazer pedido
 
 - **Front-end:** HTML, CSS e JavaScript
 - **Back-end:** PHP e SQL
-- **Banco de dados:**phpMyAdmin
-- **Ferramentas:**XAMPP
+- **Banco de dados:** phpMyAdmin
+- **Ferramentas:** XAMPP
 
 ## Execução do Projeto
 
@@ -23,25 +23,25 @@ trazendo uma exibição de seus produtos, uma maior facilidade para fazer pedido
 2. Criar o Banco de Dados e a Tabela de Contato
    
 2.1 Acesse o phpMyAdmin:
-http://localhost/phpmyadmin/
+   http://localhost/phpmyadmin/
 
 2.2 Crie o banco de dados:
-CREATE DATABASE doces_da_vovo;
+   CREATE DATABASE doces_da_vovo;
 
 2.3 Selecione o banco de dados e execute o seguinte SQL para criar a tabela de contato:
-CREATE TABLE contato (
-    id INT AUTO_INCREMENT PRIMARY KEY,
-    nome VARCHAR(100) NOT NULL,
-    email VARCHAR(100) NOT NULL,
-    mensagem TEXT NOT NULL
-);
+   CREATE TABLE contato (
+       id INT AUTO_INCREMENT PRIMARY KEY,
+       nome VARCHAR(100) NOT NULL,
+       email VARCHAR(100) NOT NULL,
+       mensagem TEXT NOT NULL
+   );
 
 3. Preparar o Projeto
-3.1 Copie a pasta do projeto para o diretório:
-C:\xampp\htdocs\doces-da-vovo
+   3.1 Copie a pasta do projeto para o diretório:
+   C:\xampp\htdocs\doces-da-vovo
 
 3.2 No navegador, acesse o projeto:
-http://localhost/doces-da-vovo
+   http://localhost/doces-da-vovo
 
 ## Recomendações de Segurança
 

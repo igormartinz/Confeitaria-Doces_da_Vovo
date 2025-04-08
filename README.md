@@ -30,13 +30,13 @@ trazendo uma exibição de seus produtos, uma maior facilidade para fazer pedido
 
    2.3 Selecione o banco de dados e execute o seguinte SQL para criar a tabela de contato:  
    CREATE TABLE contato (  
-       id INT AUTO_INCREMENT PRIMARY KEY,  
-       nome VARCHAR(100) NOT NULL,  
-       email VARCHAR(100) NOT NULL,  
-       mensagem TEXT NOT NULL  
+          id INT AUTO_INCREMENT PRIMARY KEY,  
+          nome VARCHAR(100) NOT NULL,  
+          email VARCHAR(100) NOT NULL,  
+          mensagem TEXT NOT NULL  
    );  
 
-3. Preparar o Projeto
+3. Preparar o Projeto  
    3.1 Copie a pasta do projeto para o diretório:  
    C:\xampp\htdocs\doces-da-vovo
 

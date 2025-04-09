@@ -22,8 +22,8 @@ trazendo uma exibição de seus produtos, uma maior facilidade para fazer pedido
   
 2. Criar o Banco de Dados e a Tabela de Contato
    
-   2.1 Acesse o phpMyAdmin:  
-   http://localhost/phpmyadmin/
+* Acesse o phpMyAdmin:  
+http://localhost/phpmyadmin/
 
    2.2 Crie o banco de dados:  
    CREATE DATABASE doces_da_vovo;
